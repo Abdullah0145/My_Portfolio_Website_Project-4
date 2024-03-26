@@ -1,0 +1,158 @@
+/* Google fonts - Poppins */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+html, body {
+    width: 100%;
+    height: 100vh;
+    background-color: #edf1fd;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+li {
+    list-style: none;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+}
+
+div button {
+    background-color: rgb(18, 155, 155);
+    padding: 4px 10px;
+    cursor: pointer;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    font-weight: 600;
+    width: fit-content;
+}
+
+div button:hover {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+
+nav {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+}
+
+nav div.logo {
+    font-weight: 600;
+    font-size: 25px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    font-weight: 500;
+}
+
+div ul li a:hover {
+    color: rgb(18, 155, 155);
+}
+
+nav ul li:hover {
+    text-decoration: underline;
+    font-weight: 900;
+    color: rgb(18, 155, 155);
+}
+
+div.Search-field {
+    display: flex;
+    justify-content: space-around;
+    height: inherit;
+    gap: 20px;
+}
+
+input {
+    padding: 4px 10px;
+    row-gap: 20;
+}
+
+section.hero-section {
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+}
+
+div.hero-left-section h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+div.hero-left-section h1 span {
+    color: rgb(18, 155, 155);
+    font-weight: 900;
+    font-size: 2.5rem;
+}
+
+div.hero-left-section p {
+    font-weight: 900;
+}
+
+div.hero-left-section p span {
+    color: rgb(18, 155, 155);
+    font-weight: 700;
+    font-size: 25px;
+}
+
+div.hero-right-section {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: center;
+    gap: 10px;
+}
+
+div.hero-right-section-btns {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+div.hero-right-section img {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    padding: 20px;
+}
+
+footer {
+    width: 100%;
+
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+}
+
+footer p {
+    font-weight: 600;
+    display: flex;
+    justify-content: flex-start;
+}
+
+footer ul {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding: 0 80px 0 0;
+}
+
+footer ul li a i:hover {
+    color: rgb(18, 155, 155);
+}
+
